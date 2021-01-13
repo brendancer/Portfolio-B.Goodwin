@@ -10,98 +10,89 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 </head>
 
 
-<!--background image-->
-<body class="container" style="background-image: url(images/bg-leaves.jpg); background-size: 25%; background-repeat: no-repeat; background-color: #b4de80;">
- 
- 
+ <!--background image-->
+ <body
+ class="container"
+ style="
+   background-image: url(images/portfolio\ background.png);
+   background-size: 35%;
+   background-repeat: no-repeat;
+   background-color: #1c4c53;
+ "
+>
+ <!--Navbar-->
 
-<!--Navbar-->
+ <div class="container"></div>
+ <nav
+   class="navbar navbar-expand-sm navbar-dark col-sm-8 ml-auto mt-4"
+   style="background-color: #6f6a5b"
+ >
+   <a class="navbar-brand" href="index.html">Brenda Goodwin</a>
 
-<div class="container"></div>
-<nav class="navbar navbar-expand-sm navbar-dark bg-success mb-5 mt-5">
+   <button
+     class="navbar-toggler"
+     data-toggle="collapse"
+     data-target="navbarNav"
+   >
+     <span class="navbar-toggler-icon"></span>
+   </button>
 
-    <a class="navbar-brand" href="index.html">Brenda Goodwin</a>
-
-    <button class="navbar-toggler" data-toggle="collapse" data-target="navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact Me</a>
-        </li>
-      </ul>
-    </div>
-</nav>
-
+   <div class="collapse navbar-collapse" id="navbarNav">
+     <ul class="navbar-nav ml-auto">
+       <li class="nav-item">
+         <a class="nav-link" href="index.html">About Me</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="portfolio.html">Portfolio</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="contact.html">Contact Me</a>
+       </li>
+     </ul>
+   </div>
+ </nav>
 
 
 
 <!--main content-body-->
-<div class="container offset-3">
+<div class="container offset-4">
 <header class="row">
-  <div class="col-md-6 text-align-center pb-5">
-    <h1>Portfolio</h1>
+  <h1 style="text-align: center; color: white; margin-top: 4rem">Portfolio</h1>
   </div>
 </header>
 
-
-<div class="row">
-<h5 class="col-sm-9">Web Development</h5>
-</div>
-
-  <div class="row">
-    <figure class="col-md-3">
-      <a href="https://wasatchcontras.org/" target="_blank">
-    <img src="/images/Screen Shot 2020-09-25 at 5.23.36 PM.png" alt="Wasatch Contras Website Screenshot" class="img-responsive" style="width:15rem;">
-    <figcaption>Wasatch Contras Website</figcaption>
+  <div class="row" style="justify-content: space-evenly; margin-top: 4rem;">
+    <figure class="col-md-4 mt-5">
+      <a href="https://israabeseiso.github.io/Diet-Watchers/index.html" target="_blank">
+    <img src="/images/diet-watchers-ss.png" alt="Diet Watchers Screen Shot" class="img-responsive" style="width:20rem;">
+    <figcaption style=" color: white; font-weight: bold; font-size:larger;">Group Project - Diet Watchers</figcaption>
+    <p style= "color: white; font-weight: lighter" >Diet Watchers was designed to be used by anyone who wants to be more health conscious when cooking. Diet Watchers will find nutrition facts for numerous food items and also search for tasty recipes that include the ingredients you search for. We've also included some random food facts!</p>
     </figure>
 
-    <figure class="col-md-3">
-      <a href="https://brendancer.github.io/newfanpage/" target="_blank">
-    <img src="/images/Screen Shot 2020-09-25 at 5.33.50 PM.png" alt="The Gaslight Tinkers Fanpage screenshot" class="img-responsive" style="width:15rem;">
-    <figcaption>The Gaslight Tinkers Fanpage</figcaption>
+    <figure class="col-md-4" style ="margin-top: -2rem;">
+      <a href="https://brendancer.github.io/TimeBlock/" target="_blank">
+    <img src="/images/ScreenShot.png" alt="TimeBlock screenshot" class="img-responsive" style="width:20rem;">
+    <figcaption style=" color: white; font-weight: bold; font-size:larger;">TimeBlock</figcaption>
+   
+    <p style= "color: white; font-weight: lighter" >TimeBlock is an app designed to enable the user to record their tasks and appointments during the typical work day on a daily basis. The blocks are color-coded to show past, present, and future hours. User entries will persist each time they visit the app, with an option to clear appointments to start the day fresh. TimeBlock features clean design that is simple, calm, and easy on the eyes.</p>
+  </figure>
+
+    <figure class="col-md-4" style ="margin-top: -6rem;">
+      <a href= "https://brendancer.github.io/AnyWhere-Weather/" target="_blank">
+    <img src="/images/CompleteSS.png" alt="Weather App Screenshot" class="img-responsive" style="width: 20rem;">  
+    <figcaption style=" color: white; font-weight: bold; font-size:larger;">AnyWhere Weather</figcaption>
+    <p style= "color: white; font-weight: lighter">In this app, the user enters the name of a city, then clicks the search button. The Dashboard then displays the current weather conditions in that city, including temperature, humidity, and UV index.Below this info is a 5-day forecast (predicted for 12:00 pm each day) for that city showing showing similar information along with an icon to pictorially represent the general conditions.</p>
     </figure>
-
-    <figure class="col-md-3">
-      <a href="https://brendancer.github.io/goodwin-homework1/" target="_blank">
-    <img src="/images/Screen Shot 2020-09-25 at 6.10.05 PM (2).png" alt="Accessable Design Exercise Screenshot" class="img-responsive" style="width: 15rem;">  
-    <figcaption>Accessable Design Exercise</figcaption>
-    </figure>
-  </div>
+  
 
 
-    <div class="row">
-      <h5 class="col-sm-">Graphic Design</h5>
-    </div>
-      
-      <div class="row">
-        <figure class="col-md-3">
-          <img src="/images/movie poster final.jpg" alt="Movie Poster Rat Love"   class="img-responsive" style="width:8rem;">
-          <figcaption>Movie Poster-Rom Com</figcaption>
+
         </figure>
-    
-        <figure class="col-md-3">
-          <img src="images/becky's business card.jpg" alt="Rat breeder's business card" class="img-responsive" style="width:12rem;">
-          <figcaption>Business Card-Rat Breeder</figcaption>
-        </figure>
-
-        <figure class="col-md-3">
-        <img src="/images/PANDEMIC DANCE CAMP.png" alt="Movie Poster Pandemic Dance Camp" class="img-responsive" style="width:8rem;">
-        <figcaption>Movie Poster-Thriller</figcaption>
-        </figure>
-      
+      </div>
       </div>
     </div>
   </div>
